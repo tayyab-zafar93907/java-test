@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    min-height: 100vh;
+    /* background-image: url(../assets/new.jpg); */
+    /* background-position: center; */
+    background: hsla(189, 29%, 68%, 1);
+
+background: radial-gradient(circle, hsla(189, 29%, 68%, 1) 50%, hsla(178, 37%, 87%, 1) 67%);
+
+    background-repeat: no-repeat;
+    font-family:'raleway', sans-serif;
+    
+
+}
+.container{
+
+    width: 100%;
+    position: relative;
+    width: 300px; 
+    height: 400px;
+    /* background-color: hwb(180 67% 2%); */
+    background-color: #bde0fe;
+    /* background: transparent; */
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(85, 111, 117); 
+    border-radius: 20px;
+    box-shadow:2px 2px #162938;
+}
+.form{
+    position: relative;
+    width:96%;
+    height: 50px;
+    border-bottom: 2px solid #000;
+    color: black;
+   
+}
+a:hover{
+    font-size: large;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.forget{
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+   float: right;
+}
+.register a{
+    text-decoration: none;
+}
+.icon{
+    position: absolute;
+    right: 10px;
+    font-size: 1.2rem;
+    color: #162938;
+    line-height: 70px;
+}
+.login:hover{
+    background-color: #84bccd;
+    /* color: #000 */
+    border-radius: 10px;
+    /* box-shadow:  0 0 5px #03e9f4, 0 0 15px #03e9f4, 0 0 20px #03e9f4,
+    0 0 50px #03e9f4;
+     */
+}
